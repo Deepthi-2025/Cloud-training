@@ -1,5 +1,5 @@
-From naginx:latest
-WORKDIR /usr/share/naginx/html
-COPY . /usr/share/naginx/html/
+From ubuntu:latest
+WORKDIR /usr/share/ubuntu/html
+COPY . /usr/share/ubuntu/html/
 EXPOSE 81
-CMD ["naginx","-g","daemon off;"]
+CMD ["ubuntu","-g","daemon off;"]
